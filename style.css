@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+
+.hero-section{
+    min-height: 100vh;
+    /* background-color: #F99501; */
+   background-image: url('/images/orange-backdrop\ 1\ \(1\).png');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.jumar {
+    width: 300px;
+    height: 300px;
+}
+
+
+.para-audio {
+    margin-left: 10rem;
+    max-width: 500px; 
+}
+.para-audio p {
+    margin-bottom: 25px;
+}
+
+.hero-section p{
+        font-family: "Salsa", cursive;
+        font-weight: 400;
+       font-size: 37px;  
+       color: #1E1E1E;
+      
+       /* margin-bottom: 2rem; */
+}
+
+
+
+.music-components {
+    background-color: #FBD8A4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 61px;
+    border-radius: 30px;
+}
+.music-components audio {
+    width: 100%;                 /* Make audio element inherit the full width of its parent div */
+    background-color: #FBD8A4;   /* Inherit the background color from the parent div */
+    border: none;    
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #FBD8A4;
+     color: #000;
+     }
+
+.music-things {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 10px; */
+    margin-left: 10px;
+}
+
+
+.music-things .music-icon{
+    width: 30px;
+    height: 30px;
+}
+.music-things p{
+    font-family: "Salsa", cursive;
+    font-size: 16px;
+    width: 97px;
+    /* vertical-align: 10px; */
+    /* margin-inline:auto; */
+    margin-top: 24px;
+
+}
+.music-things .music-lines {
+    width: 45px;
+    height: 24px;
+}
+.diya img {
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    /* margin-left: 3rem; */
+}
+.diya img + img {
+    margin-left: 3rem;
+}
